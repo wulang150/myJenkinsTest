@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A17DB5823389CD400346EE4 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A17DB5723389CD400346EE4 /* ExportOptions.plist */; };
 		9A1EC5F12335EFAD00A718EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1EC5F02335EFAD00A718EC /* AppDelegate.m */; };
 		9A1EC5F42335EFAD00A718EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1EC5F32335EFAD00A718EC /* ViewController.m */; };
 		9A1EC5F72335EFAD00A718EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1EC5F52335EFAD00A718EC /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A17DB5723389CD400346EE4 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		9A1EC5EC2335EFAD00A718EC /* myJenkinsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myJenkinsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1EC5EF2335EFAD00A718EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A1EC5F02335EFAD00A718EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		9A1EC5EE2335EFAD00A718EC /* myJenkinsTest */ = {
 			isa = PBXGroup;
 			children = (
+				9A17DB5723389CD400346EE4 /* ExportOptions.plist */,
 				9A1EC5EF2335EFAD00A718EC /* AppDelegate.h */,
 				9A1EC5F02335EFAD00A718EC /* AppDelegate.m */,
 				9A1EC5F22335EFAD00A718EC /* ViewController.h */,
@@ -238,6 +241,7 @@
 				9A1EC5FC2335EFAF00A718EC /* LaunchScreen.storyboard in Resources */,
 				9A1EC5F92335EFAF00A718EC /* Assets.xcassets in Resources */,
 				9A1EC5F72335EFAD00A718EC /* Main.storyboard in Resources */,
+				9A17DB5823389CD400346EE4 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
