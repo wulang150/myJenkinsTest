@@ -20,7 +20,7 @@
     
     UILabel *lab = [[UILabel alloc] initWithFrame:CGRectMake(30, 100, 120, 32)];
     lab.layer.borderWidth = 1;
-    lab.text = @"sfdsfdsfds";
+    lab.text = @"你叫什么名字";
     [self.view addSubview:lab];
 }
 
